@@ -7,5 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
+require 'csv'
 
+csv_text = File.read(Rails.root.join)('lib', 'seeds', 'people.csv')
+csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
+puts csv_text
 

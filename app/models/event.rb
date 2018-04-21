@@ -1,3 +1,3 @@
 class Event < ApplicationRecord
-    has_many :people, through: :assisstances
+    has_many :people, through: :assistances
 end
