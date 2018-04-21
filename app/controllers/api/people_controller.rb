@@ -7,8 +7,8 @@ if (params[:event_id] == nil)
 end
 
 def show
-    @event = Event.find(params[:id])
-    render json: @event
+    @person = Person.find(params[:id])
+    render json: @person
 end
 
 end
