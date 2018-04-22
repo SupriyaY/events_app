@@ -1,8 +1,8 @@
 class Api::AssistancesController < ApplicationController
 
   def index
-    @assistances = Event.find(params[:event_id]).assistances
-    # @assistances = Assistance.all
+    # @assistances = Event.find(params[:event_id])
+    @assistances = Assistance.all
     render json: @assistances
   end
 
