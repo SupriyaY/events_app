@@ -1,13 +1,8 @@
 class Api::PeopleController < ApplicationController
 
     def index
-    @event = Event.find(params[:event_id])
-if (params[:event_id] == nil)
-    @people = @event.people
-    render json: @people
-end
-# @people = Person.all
-# render json: @people
+@people = Person.all
+render json: @people
 end
 
 def show
