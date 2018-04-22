@@ -11,6 +11,9 @@ class Homepage extends Component {
         return (
 <div>
 Hello from the Homepage!
+                
+                
+  <Link to="/events">Events</Link> 
 
     </div>
         )
