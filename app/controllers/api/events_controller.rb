@@ -1,9 +1,8 @@
 class Api::EventsController < ApplicationController
     
     def index
-        @events = Event.all
+        @events = Events.all
         render json: @events
-
 end
 
 
