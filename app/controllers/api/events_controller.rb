@@ -8,7 +8,8 @@ end
 
 def show
     @event = Event.find(params[:id]) 
-    render json: @event
+    render json: @event.to_json(only: [:name, :location, :price, :date, :id])
+
 end
 
 end

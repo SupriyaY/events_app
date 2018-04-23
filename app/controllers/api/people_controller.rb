@@ -7,6 +7,6 @@ end
 
 def show
     @person = Person.find(params[:id])
-    render json: @person
+    render json: @person, status: 200
 end
 end
