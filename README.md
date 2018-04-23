@@ -12,7 +12,7 @@
 
 # Resources 
 * User Stories: [Trello](https://trello.com/b/ehmAs97b/dataclover-events-application)
-* ERD 
+* [ERD](https://github.com/SupriyaY/events_app/blob/master/ERD.png)
 
 
 
@@ -20,3 +20,4 @@
 * How to run the test suite:  Next Version
 * Data Type Correction
 * Matching people to events - currently just viewing the objects
+* [CSV - rake tasks ](https://gist.github.com/arjunvenkat/1115bc41bf395a162084)
