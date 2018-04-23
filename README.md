@@ -1,26 +1,22 @@
-# README
+# Events Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Overview
+* Application to view people under events
 
-Things you may want to cover:
+# Technologies Used
 
-* Ruby version
+* Ruby version: rails 5.2 and ruby 2.4.3
+* React
+* Database creation: PostgreSQL
 
-* System dependencies
 
-* Configuration
+# Resources 
+* User Stories: [Trello](https://trello.com/b/ehmAs97b/dataclover-events-application)
+* ERD 
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-* Resources 
+#Future Improvements
+* How to run the test suite:  Next Version
+* Data Type Correction
+* Matching people to events - currently just viewing the objects
