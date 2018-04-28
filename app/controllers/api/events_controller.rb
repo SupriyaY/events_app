@@ -7,7 +7,7 @@ end
 
 
 def show
-    @event = Event.find(params[:id]) 
+    @event = Event.find(params[:id]).people
     render json: @event
 end
 
