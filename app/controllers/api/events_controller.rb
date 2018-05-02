@@ -6,9 +6,12 @@ class Api::EventsController < ApplicationController
 end
 
 
+
 def show
-    @event = Event.find(params[:id]).people
-    render json: @event
+    @event = Event.find(params[:event_id])
+     @people = @event.people
+        @data = {event: @event, people: @people}
+        render json: @data
 end
 
 end
