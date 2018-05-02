@@ -14,7 +14,8 @@
 * User Stories: [Trello](https://trello.com/b/ehmAs97b/dataclover-events-application) - Before I start coding the application, I write out my user stories in order to manage the logic and user exerperience.  For example, When I click on X, Y should occur.  Per the instructions I received, I wanted to make sure I hit MVP before I attempted to complete the bonus section of the instructions such as deploying the challenge to heroku and completing TDD on the controllers and the models.
 * ERDs were built in order to list the data models and their data types.  I created each data model from the raw data I recieved in the CSV files.
 ![ERD](https://github.com/SupriyaY/events_app/blob/master/ERD.png) 
-* Wireframes were created 
+* Wireframes were created using Figma to design the prototype of the application.
+![Wireframes](https://github.com/SupriyaY/events_app/blob/master/Events%20Wireframes.png)
 
 
 # Future Improvements
