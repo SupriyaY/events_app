@@ -12,6 +12,7 @@
 
 # Resources 
 * User Stories: [Trello](https://trello.com/b/ehmAs97b/dataclover-events-application) - Before I start coding the application, I write out my user stories in order to manage the logic and user exerperience.  For example, When I click on X, Y should occur.  Per the instructions I received, I wanted to make sure I hit MVP before I attempted to complete the bonus section of the instructions such as deploying the challenge to heroku and completing TDD on the controllers and the models.
+* [CSV: rake tasks ](https://gist.github.com/arjunvenkat/1115bc41bf395a162084) - I used this as a resource to create the seeds file through rake tasks.
 * ERDs were built in order to list the data models and their data types.  I created each data model from the raw data I recieved in the CSV files.
 ![ERD](https://github.com/SupriyaY/events_app/blob/master/ERD.png) 
 * Wireframes were created using Figma to design the prototype of the application.
@@ -26,7 +27,6 @@
 * Matching people to events - currently just viewing the objects.
 * Full CRUD on both models(People and Events), add more models and make this a fully functioning planning app!
 * Use HTTParty and find a fun third-party API to make the application more dynamic and usable.
-* [CSV: rake tasks ](https://gist.github.com/arjunvenkat/1115bc41bf395a162084) - I used this as a resource to create the seeds file through rake tasks.
 * Materialize UI for user interface
 
 
