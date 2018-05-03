@@ -22,7 +22,7 @@
 # Future Improvements
 * How to run the test suite:  Next Version
 * Revisit if SQLite is a better option for database creation
-* Data Type Correction - While creating my In order to fix this problem, I can either do a rollback to a migration or create another migration.
+* Data Type Correction - While creating my seeds file, I incorrectly gave a couple of values the wrong data type.  In order to fix this problem, I can either do a rollback to a migration or create another migration.
 * Deployment to Heroku - attempts made but receiving errors.  I believe that the cause of this could be deploying to heroku after I ran the ruby version update.  I am currently researching how I can fix this issue.
 * Matching people to events - currently just viewing the objects.
 * Full CRUD on both models(People and Events), add more models and make this a fully functioning planning app!
