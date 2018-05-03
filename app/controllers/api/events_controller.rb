@@ -8,10 +8,8 @@ end
 
 
 def show
-    @event = Event.find(params[:event_id])
-     @people = @event.people
-        @data = {event: @event, people: @people}
-        render json: @data
+    @event = Event.find(params[:id])
+        render json: @events
 end
 
 end
